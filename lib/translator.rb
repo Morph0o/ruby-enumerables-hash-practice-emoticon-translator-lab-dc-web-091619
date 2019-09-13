@@ -5,7 +5,7 @@ def load_library(hash)
   path = hash
   emoticon = path
   return emoticon
-binging.pry
+binding.pry
 end
 
 
