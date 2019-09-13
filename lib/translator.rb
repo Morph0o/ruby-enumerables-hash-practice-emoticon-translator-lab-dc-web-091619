@@ -1,11 +1,9 @@
-require "pry"
+
 require "yaml"
 
 def load_library(hash)
-  path = hash
-  emoticon = path
+  emoticon = YAML.load_file('hash')
   return emoticon
-binding.pry
 end
 
 
