@@ -1,9 +1,13 @@
+require"pry"
 require "yaml"
 
 def load_library(hash)
-  emoticon = hash
+  path = hash
+  emoticon = path
   return emoticon
+binging.pry
 end
+
 
 def get_japanese_emoticon
   # code goes here
