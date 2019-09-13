@@ -3,7 +3,7 @@ require "yaml"
 
 def load_library(hash)
   path = hash
-  emoticon = YAML.load_file('fruits.yml')
+  emoticon = YAML.load_file('emoticon.yml')
   return emoticon
 end
 
